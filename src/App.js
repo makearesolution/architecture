@@ -2,6 +2,7 @@ import React from 'react';
 import Titles from './components/Titles';
 import Form from './components/Form';
 import Weather from './components/Weather';
+import Lkhamaa from './components/Lkhamaa';
 
 const API_KEY = 'e091fff3f8e3f791f442a48960501083';
 
@@ -69,6 +70,8 @@ class App extends React.Component {
                   />
                 </div>
               </div>
+              <Lkhamaa country={this.state.country}
+              city = {this.state.city}/>
             </div>
           </div>
         </div>
