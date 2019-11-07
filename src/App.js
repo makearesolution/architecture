@@ -3,6 +3,8 @@ import Titles from './components/Titles';
 import Form from './components/Form';
 import Weather from './components/Weather';
 
+import MyComponent from './components/MyComponent';
+
 const API_KEY = 'e091fff3f8e3f791f442a48960501083';
 
 class App extends React.Component {
@@ -67,7 +69,10 @@ class App extends React.Component {
                     description={this.state.description}
                     error={this.state.error}
                   />
+
                 </div>
+
+                <MyComponent city={this.state.city}/>
               </div>
             </div>
           </div>
