@@ -131,6 +131,7 @@ const Bolovsrol = () => {
                     <input id='bol_dun3' type='text' value={state.bol_dun3}/>
                 </div>)
                 }
+                <input type='submit' value='Хадгалах'/>
             </form>
         </div>
     );
